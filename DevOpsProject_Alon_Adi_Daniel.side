@@ -1,0 +1,88 @@
+{
+  "id": "56d067d3-2f01-4910-af60-8e990c873635",
+  "version": "2.0",
+  "name": "DevOpsProject_Alon_Adi_Daniel",
+  "url": "",
+  "tests": [{
+    "id": "6b898469-2c82-4036-8b9b-115f72b492d8",
+    "name": "Test4DevOpsProject",
+    "commands": [{
+      "id": "0e934295-1b35-424e-b3a8-b16ca39d64e1",
+      "comment": "",
+      "command": "click",
+      "target": "name=limit",
+      "targets": [
+        ["name=limit", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='limit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52c04071-5780-4acb-8ac6-779f53992713",
+      "comment": "",
+      "command": "type",
+      "target": "name=limit",
+      "targets": [
+        ["name=limit", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='limit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "10"
+    }, {
+      "id": "ac2177bd-0ea6-41e6-9436-ae7dc63128c6",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=limit",
+      "targets": [
+        ["name=limit", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='limit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ec9fb376-63b7-4187-b0e7-af7e0e6d9c5f",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "",
+      "targets": [],
+      "value": "You will see the output in a minute. Meanwhile, have a cup of tea for a small price of 200 new NIS"
+    }, {
+      "id": "ba382780-4bb0-4380-bd6a-09ffabe05101",
+      "comment": "",
+      "command": "click",
+      "target": "name=limit",
+      "targets": [
+        ["name=limit", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='limit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "621d046e-dae3-40e3-9bda-2f9714baeaed",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "name=limit",
+      "targets": [
+        ["name=limit", "name"],
+        ["css=input", "css:finder"],
+        ["xpath=//input[@name='limit']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1610727e-20d2-4c8f-83ca-10d101bdfba3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6b898469-2c82-4036-8b9b-115f72b492d8"]
+  }],
+  "urls": [],
+  "plugins": []
+}

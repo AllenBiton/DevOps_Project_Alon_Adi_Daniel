@@ -20,7 +20,7 @@
 %>
 <br>
 <br>
-<script>alert("You will see the output in a minute. Meanwhile, have a cup of tea for a small price of 200 new  ya habibi")</script>
+<script>alert("You will see the output in a minute. Meanwhile, have a cup of tea for a small price of 200 NIS!!!")</script>
 <br>
 The series generated are listed below :<br><br>
 <%

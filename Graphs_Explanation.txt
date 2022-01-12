@@ -2,10 +2,9 @@ Graphs explaination:
 
 1. We can see that we have 2510 requests in total.
 2. The first graph shows us the number os active users in each second.
-3. The second graph shows us the response time distribution, approximately 98% of the requests were answerd in 2ms and the rest in approximately 3 ms.
+3. The second graph shows us the response time distribution: 15 requestes recived a response within 0ms, 1774 got within 1ms, 607 got in 2ms, 61 got within 3ms, 24 got within 4ms and 7 got within 5ms.
 4. The third graph shows us the stability of the response time of the system.
 5. The fourth graph shows us the number of requests in each second with the number of the active users in that time.
 6. In the last graph we can see the number of responses the system delevired each seacond.
 
-To sum up the information we got in this 1 minute load test, we can see that the system handeled all of the requests fast without failures and quite quick.
-Only 2% of the users got the response back after 3ms ("slow") and the rest 98% got the response within 2ms.
+To sum up the information we got in this 1 minute load test, we can see that the system handeled all of the requests quite fast without failures.

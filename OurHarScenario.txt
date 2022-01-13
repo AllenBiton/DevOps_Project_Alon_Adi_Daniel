@@ -1,3 +1,4 @@
 Our har scenario:
 1. Entered our application in the next url: http://localhost:8080/DevOpsProject_Alon_Adi_Daniel
 2. Entered the number 15 in the text box to get the 15 first Fibonacci values.
+3. Displayed on website are the first 15 values of the Fibonacci series.
